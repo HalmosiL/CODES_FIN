@@ -1,0 +1,20 @@
+{
+    "IGNOR_LABEL": 255,
+    "HEIGHT": 449,
+    "WIGHT": 449,
+    "DATA_PATH": "../../city-scapes-dataset/",
+    "IMAGE_LIST": "../../city-scapes-dataset/val_10.txt",
+    "SAVE_FOLDER": "./PSPnet_CIRA+3/PGD_0.01/",
+    "NUMBER_OF_WORKERS": 0,
+    "PIN_MEMORY": false,
+    "EPS": 0.01,
+    "NUMBER_OF_ITERS": 120,
+    "ALPHA_NORMAL": 0.01,
+    "ALPHA_COSINE": 1,
+    "ALPHA_COSINE_COMBINATE": 1,
+    "ALPHA": 0.01,
+    "DEVICE": "cuda:3",
+    "MODE": "NORMAL",
+    "MODEL_PATH": "../models/Adversarial_Combination_499.pt",
+    "CLASSES": 19
+}

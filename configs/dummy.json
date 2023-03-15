@@ -1,0 +1,19 @@
+{
+    "IGNOR_LABEL": 255,
+    "HEIGHT": 449,
+    "WIGHT": 449,
+    "DATA_PATH": "../../../CitySpace/Data/ok",
+    "IMAGE_LIST": "../lists/shuffle.txt",
+    "SAVE_FOLDER": "../experiment/",
+    "NUMBER_OF_WORKERS": 0,
+    "PIN_MEMORY": false,
+
+    "EPS": 0.03,
+    "NUMBER_OF_ITERS": 2,
+    "ALPHA": 0.01,
+    
+    "DEVICE": "cpu",
+    "MODE": "DUMMY",
+    "MODEL_PATH": "",
+    "CLASSES":19
+}

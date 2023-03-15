@@ -1,0 +1,19 @@
+{
+    "IGNOR_LABEL": 255,
+    "HEIGHT": 449,
+    "WIGHT": 449,
+    "DATA_PATH": "../../city-scapes-dataset/",
+    "IMAGE_LIST": "../../city-scapes-dataset/val.txt",
+    "SAVE_FOLDER": "../examples/",
+    "NUMBER_OF_WORKERS": 0,
+    "PIN_MEMORY": false,
+
+    "EPS": 0.03,
+    "NUMBER_OF_ITERS": 1,
+    "ALPHA": 0.01,
+    
+    "DEVICE": "cuda:2",
+    "MODE": "NORMAL",
+    "MODEL_PATH": "../models/FGSM_FULL_PSPNET_482.pt",
+    "CLASSES":19
+}
